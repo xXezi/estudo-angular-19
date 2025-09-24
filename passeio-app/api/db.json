@@ -1,9 +1,14 @@
 {
-    "categorias": [
-        {
-            "id": "1",
-            "nome": "Restaurantes",
-            "descricao": "Lugares para alimentação"
-        }
-    ]
+  "categorias": [
+    {
+      "id": "2",
+      "nome": "Praias",
+      "descricao": "Lugar para conhecer"
+    },
+    {
+      "nome": "Restaurantes Atualizado",
+      "descricao": "Lugar para comer",
+      "id": "805a"
+    }
+  ]
 }
