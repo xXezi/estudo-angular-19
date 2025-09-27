@@ -9,6 +9,11 @@
       "nome": "Restaurantes Atualizado",
       "descricao": "Lugar para comer",
       "id": "805a"
-    }
+    },
+    {
+      "id": "9396",
+      "nome": "Praias",
+      "descricao": "Lugares para tomar banho"
+    }   
   ]
 }
