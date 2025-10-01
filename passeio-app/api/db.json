@@ -14,6 +14,16 @@
       "id": "9396",
       "nome": "Praias",
       "descricao": "Lugares para tomar banho"
-    }   
+    }
+  ],
+  "lugares": [
+    {
+      "id": "f85e",
+      "nome": "Praia do Ze",
+      "categoria": "Praias",
+      "localizacao": "Rio de Janeiro",
+      "urlFoto": "testes",
+      "avaliacao": "4"
+    }
   ]
 }
