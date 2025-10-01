@@ -2,11 +2,11 @@
   "categorias": [
     {
       "id": "2",
-      "nome": "Praias",
+      "nome": "Parques",
       "descricao": "Lugar para conhecer"
     },
     {
-      "nome": "Restaurantes Atualizado",
+      "nome": "Restaurantes",
       "descricao": "Lugar para comer",
       "id": "805a"
     },
@@ -24,6 +24,22 @@
       "localizacao": "Rio de Janeiro",
       "urlFoto": "testes",
       "avaliacao": "4"
+    },    
+    {
+      "id": "cdfb",
+      "nome": "Praia do Espelho",
+      "categoria": "Praias",
+      "localizacao": "Bahia",
+      "urlFoto": "https://www.carpemundi.com.br/wp-content/uploads/2024/02/praias-desertas-bahia.jpg",
+      "avaliacao": "4"
+    },
+    {
+      "id": "b87d",
+      "nome": "Parque ibirapuera",
+      "categoria": "Parques",
+      "localizacao": "são paulo",
+      "urlFoto": "https://upload.wikimedia.org/wikipedia/commons/1/11/Parque_do_ibirapuera_visto_do_c%C3%A9u.jpg",
+      "avaliacao": "5"
     }
   ]
 }
