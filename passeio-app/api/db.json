@@ -16,21 +16,13 @@
       "descricao": "Lugares para tomar banho"
     }
   ],
-  "lugares": [
-    {
-      "id": "f85e",
-      "nome": "Praia do Ze",
-      "categoria": "Praias",
-      "localizacao": "Rio de Janeiro",
-      "urlFoto": "testes",
-      "avaliacao": "4"
-    },
+  "lugares": [    
     {
       "id": "cdfb",
       "nome": "Praia do Espelho",
       "categoria": "Praias",
       "localizacao": "Bahia",
-      "urlFoto": "https://www.carpemundi.com.br/wp-content/uploads/2024/02/praias-desertas-bahia.jpg",
+      "urlFoto": "https://www.voeabaete.com.br/wp-content/uploads/2024/09/Post.jpg",
       "avaliacao": "4"
     },
     {
