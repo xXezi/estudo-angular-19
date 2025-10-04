@@ -24,7 +24,7 @@
       "localizacao": "Rio de Janeiro",
       "urlFoto": "testes",
       "avaliacao": "4"
-    },    
+    },
     {
       "id": "cdfb",
       "nome": "Praia do Espelho",
@@ -40,6 +40,14 @@
       "localizacao": "são paulo",
       "urlFoto": "https://upload.wikimedia.org/wikipedia/commons/1/11/Parque_do_ibirapuera_visto_do_c%C3%A9u.jpg",
       "avaliacao": "5"
+    },
+    {
+      "id": "1a3d",
+      "nome": "Prainha Branca",
+      "categoria": "Praias",
+      "localizacao": "Bertioga",
+      "urlFoto": "https://lugarzinho.com/wp-content/uploads/2023/08/Prainha-Branca-0-e-3.jpg",
+      "avaliacao": "4"
     }
   ]
 }
