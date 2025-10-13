@@ -1,59 +1,40 @@
-# PasseioApp
+## Cadastro de Lugares
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.2.
+Este projeto é um sistema de cadastro e consulta de lugares e categorias, desenvolvido com Angular e estilizado com TailwindCSS. Os dados são gerenciados por meio de uma API local `json-server`, permitindo a criação, listagem e filtragem de registros. A aplicação conta com uma galeria interativa que exibe os lugares cadastrados, incluindo filtros por nome e categoria, além de avaliações em formato de estrelas. O sistema foi desenvolvido com foco em boas práticas de modularização, uso de formulários reativos e integração com serviços HTTP.
 
-## Development server
+---
 
-To start a local development server, run:
+### Conhecimentos adquiridos
 
-```bash
-ng serve
-```
+- Criação e configuração de projetos Angular via Angular CLI.
+- Estruturação de módulos, componentes e rotas seguindo a arquitetura modular do Angular.
+- Implementação de rotas-filhas e layout principal utilizando o TemplateModule.
+- Manipulação de parâmetros de rota para edição e navegação entre componentes.
+- Utilização do TailwindCSS para desenvolvimento de interfaces responsivas e modernas.
+- Integração de Angular Material para uso de componentes de interface.
+- Implementação de formulários reativos com `FormGroup`, `FormControl` e `Validators`.
+- Aplicação de máscaras e validações customizadas em campos de formulário.
+- Exibição de feedback ao usuário utilizando `MatSnackBar` e mensagens de validação dinâmicas.
+- Criação de menus de navegação, footer e layout dinâmico com título e subtítulo definidos por rota.
+- Utilização dos módulos ReactiveFormsModule e FormsModule para gerenciamento de formulários.
+- Desenvolvimento de operações CRUD completas (Create, Read, Update, Delete).
+- Criação e consumo de serviços (Services) com injeção de dependência (Dependency Injection).
+- Integração com APIs locais utilizando `json-server`.
+- Manipulação de parâmetros de requisição HTTP com `HttpParams` para filtros e buscas.
+- Consumo de dados via HttpClient, com tratamento assíncrono baseado em Observables `Observable`.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+---
 
-## Code scaffolding
+### Tecnologias utilizadas
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+- Angular CLI - v19.0.2
+- TypeScript
+- HTML
+- TailwindCSS
+- Reactive Forms (FormGroup, FormControl, Validators)
+- HttpClient
+- json-server como API REST
+- Router
+- Observables (RxJS)
+- LocalStorage
+- UUID
