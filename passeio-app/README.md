@@ -37,4 +37,20 @@ Este projeto é um sistema de cadastro e consulta de lugares e categorias, desen
 - Router
 - Observables (RxJS)
 - LocalStorage
-- UUID
+
+---
+
+## Layout do projeto
+
+### Galeria
+
+![Galeria](https://github.com/xXezi/estudo-angular-19/blob/main/passeio-app/src/assets/img/page_1_galeria.png)
+![Galeria](https://github.com/xXezi/estudo-angular-19/blob/main/passeio-app/src/assets/img/page_2_galeria.png)
+
+### Categorias
+
+![Categoria](https://github.com/xXezi/estudo-angular-19/blob/main/passeio-app/src/assets/img/page_3_categoria.png)
+
+### Lugares
+
+![Categoria](https://github.com/xXezi/estudo-angular-19/blob/main/passeio-app/src/assets/img/page_4_lugares.png)
