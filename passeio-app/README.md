@@ -54,3 +54,11 @@ Este projeto é um sistema de cadastro e consulta de lugares e categorias, desen
 ### Lugares
 
 ![Categoria](https://github.com/xXezi/estudo-angular-19/blob/main/passeio-app/src/assets/img/page_4_lugares.png)
+
+---
+
+### Informações adicionais
+
+[Documentação oficial do Angular](https://angular.dev/overview).
+
+[Documentação Tailwindcss](https://tailwindcss.com/).
