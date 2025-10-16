@@ -1,0 +1,45 @@
+{
+  "categorias": [
+    {
+      "id": "2",
+      "nome": "Parques",
+      "descricao": "Lugar para conhecer"
+    },
+    {
+      "nome": "Restaurantes",
+      "descricao": "Lugar para comer",
+      "id": "805a"
+    },
+    {
+      "id": "9396",
+      "nome": "Praias",
+      "descricao": "Lugares para tomar banho"
+    }
+  ],
+  "lugares": [    
+    {
+      "id": "cdfb",
+      "nome": "Praia do Espelho",
+      "categoria": "Praias",
+      "localizacao": "Bahia",
+      "urlFoto": "https://www.voeabaete.com.br/wp-content/uploads/2024/09/Post.jpg",
+      "avaliacao": "4"
+    },
+    {
+      "id": "b87d",
+      "nome": "Parque ibirapuera",
+      "categoria": "Parques",
+      "localizacao": "são paulo",
+      "urlFoto": "https://upload.wikimedia.org/wikipedia/commons/1/11/Parque_do_ibirapuera_visto_do_c%C3%A9u.jpg",
+      "avaliacao": "5"
+    },
+    {
+      "id": "1a3d",
+      "nome": "Prainha Branca",
+      "categoria": "Praias",
+      "localizacao": "Bertioga",
+      "urlFoto": "https://lugarzinho.com/wp-content/uploads/2023/08/Prainha-Branca-0-e-3.jpg",
+      "avaliacao": "4"
+    }
+  ]
+}
