@@ -1,6 +1,6 @@
 ## Cadastro de Lugares com Login do Google
 
-Este projeto é um sistema de cadastro e consulta de lugares e categorias, desenvolvido com Angular e estilizado com TailwindCSS. Os dados são gerenciados por meio de uma API local `json-server`, permitindo a criação, listagem e filtragem de registros. A aplicação conta com uma galeria interativa que exibe os lugares cadastrados, incluindo filtros por nome e categoria, além de avaliações em formato de estrelas. O sistema foi desenvolvido com foco em boas práticas de modularização, uso de formulários reativos e integração com serviços HTTP.
+Este projeto é um sistema de cadastro e consulta de lugares e categorias, desenvolvido com Angular e estilizado com TailwindCSS. Os dados são gerenciados por meio de uma API local `json-server`, permitindo a criação, listagem e filtragem de registros. A aplicação conta com uma galeria interativa que exibe os lugares cadastrados, incluindo filtros por nome e categoria, além de avaliações em formato de estrelas. O sistema foi desenvolvido com foco em boas práticas de modularização, uso de formulários reativos e integração com serviços HTTP e autenticação com o Google `OAuth2`.
 
 ---
 
@@ -22,21 +22,56 @@ Este projeto é um sistema de cadastro e consulta de lugares e categorias, desen
 - Integração com APIs locais utilizando `json-server`.
 - Manipulação de parâmetros de requisição HTTP com `HttpParams` para filtros e buscas.
 - Consumo de dados via HttpClient, com tratamento assíncrono baseado em Observables `Observable`.
+- Integração com OAuth2 (Google) utilizando o pacote `angular-oauth2-oidc`.
+- Criação da página inicial de login (Landing Page).
+- Registro e configuração de app no Google Cloud.
+- Implementação do serviço de autenticação `AuthgoogleService` para login, logout e gerenciamento de sessão.
+- Implementação do `Guard` para proteger rotas internas.
+- Redirecionamento de rotas com base no estado de login do usuário.
+- Utilização do `Signals` para gerenciamento reativo de estado.
 
 ---
 
 ### Tecnologias utilizadas
 
 - Angular CLI - v19.0.2
+- Angular Material
+- Angular Signals
+- Angular Router
 - TypeScript
 - HTML
 - TailwindCSS
-- Reactive Forms (FormGroup, FormControl, Validators)
+- Reactive Forms (`FormGroup`, `FormControl`, `Validators`)
 - HttpClient
-- json-server como API REST
+- json-server como API REST local
 - Router
-- Observables (RxJS)
+- Observables (`RxJS`)
 - LocalStorage
+- OAuth2 com Google (`angular-oauth2-oidc`)
+- Guards
+
+---
+
+### Como executar o projeto
+
+```bash
+# Clonar o repositório
+git clone https://github.com/xXezi/estudo-angular-19.git
+
+# Acessar a pasta do projeto
+cd estudo-angular-19/passeio-app-with-login
+
+# Instalar as dependências
+npm install
+
+# Executar o servidor de API
+npm run server
+
+# Em outro terminal, executar o servidor Angular
+ng serve
+```
+Depois, abra o navegador e acesse: http://localhost:4200  
+A aplicação será recarregada automaticamente sempre que você modificar os arquivos-fonte.
 
 ---
 
@@ -69,8 +104,10 @@ Este projeto é um sistema de cadastro e consulta de lugares e categorias, desen
 
 ---
 
-### Informações adicionais
+### Documentações úteis
 
-[Documentação oficial do Angular](https://angular.dev/overview).
+[Documentação Angular](https://angular.dev/overview).
 
 [Documentação Tailwindcss](https://tailwindcss.com/).
+
+[Biblioteca angular-oauth2-oidc](https://www.npmjs.com/package/angular-oauth2-oidc).
