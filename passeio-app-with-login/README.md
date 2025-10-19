@@ -44,7 +44,6 @@ Este projeto é um sistema de cadastro e consulta de lugares e categorias, desen
 - Reactive Forms (`FormGroup`, `FormControl`, `Validators`)
 - HttpClient
 - json-server como API REST local
-- Router
 - Observables (`RxJS`)
 - LocalStorage
 - OAuth2 com Google (`angular-oauth2-oidc`)
@@ -106,8 +105,7 @@ A aplicação será recarregada automaticamente sempre que você modificar os ar
 
 ### Documentações úteis
 
-[Documentação Angular](https://angular.dev/overview).
-
-[Documentação Tailwindcss](https://tailwindcss.com/).
-
+[Angular](https://angular.dev/overview).  
+[Angular Material](https://material.angular.dev/).  
+[Framework Tailwindcss](https://tailwindcss.com/).  
 [Biblioteca angular-oauth2-oidc](https://www.npmjs.com/package/angular-oauth2-oidc).
