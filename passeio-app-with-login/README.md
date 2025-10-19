@@ -44,28 +44,28 @@ Este projeto é um sistema de cadastro e consulta de lugares e categorias, desen
 
 ### Tela de login
 
-![Login](https://github.com/xXezi/estudo-angular-19/blob/main/passeio-app/src/assets/img/page_1_login.png)
+![Login](https://github.com/xXezi/estudo-angular-19/blob/main/passeio-app-with-login/src/assets/img/page_1_login.png)
 
 ### Inserir email Google
 
-![Login](https://github.com/xXezi/estudo-angular-19/blob/main/passeio-app/src/assets/img/page_2_login.png)
+![Login](https://github.com/xXezi/estudo-angular-19/blob/main/passeio-app-with-login/src/assets/img/page_2_login.png)
 
 ### Logado com o email
 
-![Login](https://github.com/xXezi/estudo-angular-19/blob/main/passeio-app/src/assets/img/page_3_login.png)
+![Login](https://github.com/xXezi/estudo-angular-19/blob/main/passeio-app-with-login/src/assets/img/page_3_login.png)
 
 ### Galeria
 
-![Galeria](https://github.com/xXezi/estudo-angular-19/blob/main/passeio-app/src/assets/img/page_1_galeria.png)
-![Galeria](https://github.com/xXezi/estudo-angular-19/blob/main/passeio-app/src/assets/img/page_2_galeria.png)
+![Galeria](https://github.com/xXezi/estudo-angular-19/blob/main/passeio-app-with-login/src/assets/img/page_1_galeria.png)
+![Galeria](https://github.com/xXezi/estudo-angular-19/blob/main/passeio-app-with-login/src/assets/img/page_2_galeria.png)
 
 ### Categorias
 
-![Categoria](https://github.com/xXezi/estudo-angular-19/blob/main/passeio-app/src/assets/img/page_3_categoria.png)
+![Categoria](https://github.com/xXezi/estudo-angular-19/blob/main/passeio-app-with-login/src/assets/img/page_3_categoria.png)
 
 ### Lugares
 
-![Categoria](https://github.com/xXezi/estudo-angular-19/blob/main/passeio-app/src/assets/img/page_4_lugares.png)
+![Categoria](https://github.com/xXezi/estudo-angular-19/blob/main/passeio-app-with-login/src/assets/img/page_4_lugares.png)
 
 ---
 
