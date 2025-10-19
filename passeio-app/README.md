@@ -28,15 +28,39 @@ Este projeto é um sistema de cadastro e consulta de lugares e categorias, desen
 ### Tecnologias utilizadas
 
 - Angular CLI - v19.0.2
+- Angular Material
+- Angular Router
 - TypeScript
 - HTML
 - TailwindCSS
 - Reactive Forms (FormGroup, FormControl, Validators)
 - HttpClient
-- json-server como API REST
-- Router
+- json-server como API REST local
 - Observables (RxJS)
 - LocalStorage
+
+---
+
+### Como executar o projeto
+
+```bash
+# Clonar o repositório
+git clone https://github.com/xXezi/estudo-angular-19.git
+
+# Acessar a pasta do projeto
+cd estudo-angular-19/passeio-app
+
+# Instalar as dependências
+npm install
+
+# Executar o servidor de API
+npm run server
+
+# Em outro terminal, executar o servidor Angular
+ng serve
+```
+Depois, abra o navegador e acesse: http://localhost:4200/paginas/galeria  
+A aplicação será recarregada automaticamente sempre que você modificar os arquivos-fonte.
 
 ---
 
@@ -57,8 +81,8 @@ Este projeto é um sistema de cadastro e consulta de lugares e categorias, desen
 
 ---
 
-### Informações adicionais
+### Documentações úteis
 
-[Documentação oficial do Angular](https://angular.dev/overview).
-
-[Documentação Tailwindcss](https://tailwindcss.com/).
+[Angular](https://angular.dev/overview).  
+[Angular Material](https://material.angular.dev/).  
+[Framework Tailwindcss](https://tailwindcss.com/).
