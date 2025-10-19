@@ -1,4 +1,4 @@
-## Cadastro de Lugares
+## Cadastro de Lugares com Login do Google
 
 Este projeto é um sistema de cadastro e consulta de lugares e categorias, desenvolvido com Angular e estilizado com TailwindCSS. Os dados são gerenciados por meio de uma API local `json-server`, permitindo a criação, listagem e filtragem de registros. A aplicação conta com uma galeria interativa que exibe os lugares cadastrados, incluindo filtros por nome e categoria, além de avaliações em formato de estrelas. O sistema foi desenvolvido com foco em boas práticas de modularização, uso de formulários reativos e integração com serviços HTTP.
 
@@ -41,6 +41,18 @@ Este projeto é um sistema de cadastro e consulta de lugares e categorias, desen
 ---
 
 ## Layout do projeto
+
+### Tela de login
+
+![Login](https://github.com/xXezi/estudo-angular-19/blob/main/passeio-app/src/assets/img/page_1_login.png)
+
+### Inserir email Google
+
+![Login](https://github.com/xXezi/estudo-angular-19/blob/main/passeio-app/src/assets/img/page_2_login.png)
+
+### Logado com o email
+
+![Login](https://github.com/xXezi/estudo-angular-19/blob/main/passeio-app/src/assets/img/page_3_login.png)
 
 ### Galeria
 
