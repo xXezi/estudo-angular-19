@@ -1,59 +1,65 @@
-# Anybank
+## AnyBank
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.19.
+O AnyBank é um projeto que simula uma aplicação bancária, exibindo o saldo atual e permitindo realizar depósitos e saques por meio de um formulário. Cada nova transação afeta automaticamente o valor do saldo mostrado e é registrada no extrato, que apresenta as operações já realizadas, organizadas da mais recente para a mais antiga, acompanhadas de suas respectivas datas.
 
-## Development server
+---
 
-To start a local development server, run:
+### Conhecimentos adquiridos
+
+- Criação e gerenciamento de projetos e componentes com a Angular CLI;
+- Comunicação entre componentes usando inputs e outputs;
+- Formatação de dados usando pipes como DatePipe, CurrencyPipe, TitleCasePipe e KeyValuePipe;
+- Internacionalização (i18n) para suporte a diferentes idiomas;
+- Two-way data binding com ngModel para formulários dinâmicos;
+- Uso de signals e computed para otimizar a reatividade da aplicação;
+- Geração de identificadores únicos com o uso da ferramenta nanoid.
+
+---
+
+### Tecnologias utilizadas
+
+- Angular CLI version 19.2.19
+- Angular Material
+- Componentização
+- Pipes
+- Formulários orientados a template
+- Inputs e outputs
+- Signals e computed
+- TypeScript
+- HTML
+- CSS
+
+---
+
+
+### Como executar o projeto
 
 ```bash
+# Clonar o repositório
+git clone https://github.com/xXezi/estudo-angular-19.git
+
+# Acessar a pasta do projeto
+cd estudo-angular-19/anybank
+
+# Instalar as dependências
+npm install
+
+# No terminal, executar o servidor Angular
 ng serve
 ```
+Depois, abra o navegador e acesse: http://localhost:4200/
+A aplicação será recarregada automaticamente sempre que você modificar os arquivos-fonte.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+---
 
-## Code scaffolding
+## Layout do projeto
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+(https://github.com/xXezi/estudo-angular-19/anybank/public/img/projeto.png)
 
-```bash
-ng generate component component-name
-```
+---
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
 
-```bash
-ng generate --help
-```
+### Documentações úteis
 
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+[Angular](https://angular.dev/overview).  
+[Angular Material](https://material.angular.dev/).
