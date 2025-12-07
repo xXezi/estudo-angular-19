@@ -54,7 +54,7 @@ A aplicação será recarregada automaticamente sempre que você modificar os ar
 
 ## Layout do projeto
 
-(https://github.com/xXezi/estudo-angular-19/blob/main/anybank/public/img/projeto.png)
+![](https://github.com/xXezi/estudo-angular-19/blob/main/anybank/public/img/projeto.png)
 
 ---
 
