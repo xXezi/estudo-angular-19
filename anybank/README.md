@@ -47,7 +47,7 @@ npm install
 # No terminal, executar o servidor Angular
 ng serve
 ```
-Depois, abra o navegador e acesse: http://localhost:4200/
+Depois, abra o navegador e acesse: http://localhost:4200/   
 A aplicação será recarregada automaticamente sempre que você modificar os arquivos-fonte.
 
 ---
